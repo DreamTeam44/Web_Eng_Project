@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html>
+
+<!-- اعدادات الصفحة -->
+
+<head> 
+    <meta charset = "UTF-8" /> 
+    <title> وسوم الاستمارات </title>
+    <link rel="stylesheet" type="text/css"href="style.css">
+</head>
+
+<header class="header">
+<h2> وسوم الاستمارات </h2>
+<h1 dir="rtl"> سيتم شرح واستعراض الوسوم الخاصة بالاستمارات  </h1>
+</header>
+
+<!-- جسم الصفحة -->
+
+<body class="body-container">
+    <div class="cards-container" >
+    <div>
+    
+    <h1> وسوم الاستمارات </h1>
+
+   <p> تستعمل الاستمارات لجمع المعلومات المدخلة من المستخدمين     
+    <br>
+     input لإنشاء استمارة يجب عليك فتح وسم form  في داخله وسم 
+     <br>
+      HTMLسيتم كتابة مثال على كيفية انشاء استمارة في الـ  </p>
+
+    <div>
+   <h1>input </h1>
+    <p>  وسيتم من خلاله تحديد نوع ادخال البيانات </p>
+    <p style=color: blue > ملاحظة: الجدول تفاعلية </p>
+          
+<!-- بداية الجدول -->          
+<table>
+  <tr>
+    <th>الدالة</th>
+    <th>شكلها</th>
+  </tr>
+  
+  <tr>
+    <td>type="text"</td>
+    <td> <input type="text" name="first" placeholder="مساحة لإدخال نص"/> </td>
+  </tr>
+  
+  <tr>
+    <td>type="password"</td>
+    <td> <input type="password" placeholder="*******"/> </td>
+  </tr>
+  
+    <tr>
+      <td> type="email" </td>
+      <td><input type="email" name="email" placeholder="يجب ادخال ايميل في هذه الخانة"  /> 
+    </td>
+  </tr>
+  
+  <tr>
+    <td>type="radio"</td>
+    <td> 
+    <input type="radio" name="gender" value="male" checked/> 
+    <input type="radio" name="gender" value="female" checked/> 
+    </td>  
+</tr>
+ 
+  <tr>
+    <td> type="checkbox"</td>
+    <td> <input type="checkbox" name="vehicle" /> 
+        <input type="checkbox" name="vehicle" />
+    </td>
+  </tr>
+  
+    <tr>
+      <td> type="range" </td>
+      <td> <input type="range" name="points" min="0" max="10" /> </td>
+  </tr>
+  
+    <tr>
+      <td> type="submit" </td>
+      <td><input type="submit" value="إرسال" /> </td>
+  </tr>
+  
+  <tr>
+      <td> type="button" </td>
+      <td><input type="button" onclick="alert('Hello World!')" value="اضغط الزر" /> </td>
+  </tr>
+  
+  <tr>
+      <td> type="time" </td>
+      <td> <input type="time" name="usr_time" /> </td>
+  </tr>
+  
+  <tr>
+      <td> type="url" </td>
+      <td> <input type="url" placeholder="يجب ادخال رابط" /> </td>
+  </tr>
+</table>
+   <!-- نهاية الجدول -->          
+
+
+   
+<div class="tag-ex">
+    <h2 style="color:orange">مثال على انشاء الاستمارة</h2>
+      <h3>
+      &lt;form&gt;
+<br>
+  &lt;input type="checkbox" defines
+name:"course"
+value="cource1"
+/&gt; course1
+<br>
+&lt;input type="radio" defines
+name:"course"
+value="cource2"
+/&gt;course2
+<br>
+&lt;input type="checkbox" defines
+name:"course"
+value="cource3"
+course3/&gt;course3
+  <br>
+   Email
+    &lt;input type=text name="Email" min="5" max="10" /&gt;
+    <br>
+    password 
+    &lt;input type=password name="password" min="5" max="10" /&gt; 
+    <br>
+    &lt;input type = "submit" value="Submit" /&gt;
+    <br>
+&lt;/form&gt;
+      
+
+     </h3>
+   
+<form>
+
+  <input type="checkbox" defines
+name:"course"
+value="cource1"
+/> course1
+
+
+<input type="radio" defines
+name:"course"
+value="cource2"
+/>course2
+
+
+<input type="checkbox" defines
+name:"course"
+value="cource3"
+course3/>course3
+  <br><br>
+   Email
+    <input type=text name="Email" min="5" max="10" />
+    <br><br>
+    password 
+    <input type=password name="password" min="5" max="10" /> 
+    <br><br>
+    <input type = "submit" value="Submit" />
+</form>
+   <br>
+   <p> للمزيد من المعلومات اضغط: <a href="https://www.w3schools.com/html/html_forms.asp"  target="_blank" >هنا </a></p>
+  </div>
+    
+        </div>
+    </div>
+</div>
+    </body>
+    
+<br><br><br>
+</html>

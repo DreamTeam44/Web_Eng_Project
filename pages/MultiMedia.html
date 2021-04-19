@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html dir="rtl" lang="ar">
+
+
+<!-- اعدادات الصفحة -->
+<head> 
+    <meta charset = "UTF-8" /> 
+    <title> وسوم الوسائط المتعددة </title>
+    <link rel="stylesheet" type="text/css"href="style.css">
+</head>
+
+<header class="header">
+<h1> وسوم الوسائط المتعددة </h1>
+<h1 dir="rtl"> سيتم شرح واستعراض الوسوم الخاصة بالوسائط المتعددة  </h1>
+</header>
+
+<!-- جسم الصفحة -->
+<body class="body-container">
+<div class="cards-container" >
+<div>
+	<h1>الصور:</h1>
+	
+
+  <p> وسم الصور img من الوسوم ذاتية الاغلاق سيتم استعراض بعض الدوال و خصائصها للصور   </p>
+  
+  
+   <table>
+  <tr>
+    <th>الدالة</th>
+    <th>خصائصها</th>
+  </tr>
+  
+  <tr>
+    <td>src=the path of the img</td>
+    <td>تحديد موقع الصورة وهي دالة اساسية</td>
+  </tr>
+  
+  <tr>
+    <td>width="400px" , height="400"</td>
+    <td> تحديد حجم الصورة بالبكسل </td>
+  </tr>
+  
+  <tr>
+    <td>border=2px</td>
+    <td>رسم إطار للصورة</td>
+  </tr>
+  
+  <tr>
+      <td  > alt:txt </td>
+      <td> نص بديل عن الصورة بحال تعذر ظهور الصورة </td>
+  </tr>
+</table>
+ 
+
+
+<div class="tag-ex">
+<h3 style="color:orange" > مثال تطبيقي لوسم الصور </h3>
+<h2 dir="ltr">
+   &lt;img src="assets/image/summer.jpg" width="400" height="400" border=2px alt="summer" /&gt;
+</h2>
+</div>
+    
+  <br/><br/>
+  
+  	 <p>
+	 للمزيد من المعلومات اضغط   
+	 <a href="https:/www.w3schools.com/tags/tag_img.asp"  target="_blank"> هنا </a>
+    </p>
+    
+  <br/><br/>
+	
+	<img src="assets/image/summer.jpg" width="400" height="400" border=2px >
+	<img src="assets/image/unnamed.jpg" width="400" height="400" border=3px>
+
+
+	<h1>وسم  الفيديو :</h1>
+	<br>
+   <p> لنشر فيديو تحتاج لعدة وسوم داخل بعضها  
+   <br>
+    اولًا وسم  video لتحديد ابعاد الفيديو واضافة المتحكم (controls) و داخله وسم source  لتحديد مكان الفيديو </p>
+
+    <p>
+	 للمزيد من المعلومات اضغط   
+	 <a href="https:/www.w3schools.com/tags/ref_av_dom.asp"  target="_blank" > هنا </a>
+    </p>
+       
+	   <table>
+  <tr>
+    <th>الدالة</th>
+    <th>خصائصها</th>
+  </tr>
+  
+  <tr>
+    <td>src=the path of the img</td>
+    <td>تحديد موقع الصورة وهي دالة اساسية</td>
+  </tr>
+  
+  <tr>
+    <td>width="500" , height="240"</td>
+    <td> تحديد حجم الفيديو بالبكسل </td>
+  </tr>
+  
+  <tr>
+    <td>controls</td>
+    <td>لإضافة متحكم للفيديو</td>
+  </tr>
+  
+  <tr>
+      <td> autoplay </td>
+      <td> لتشغيل الفيديو تلقائيًا </td>
+  </tr>
+  
+    <tr>
+      <td> type="video/mp4" </td>
+      <td> لتحديد امتداد و نوع الملف </td>
+  </tr>
+  
+</table>
+
+
+
+<div class="tag-ex">
+<h3 style="color:orange" > مثال لوسم الفيديو </h3>
+       <h2 dir="ltr" >
+   	&lt;video width="500" height="240" autoplay muted&gt;
+   	<br>
+	&lt;source src="assets/videos/bridge.mp4" type="video/mp4"&gt;
+	<br>
+	&lt;/video&gt;
+    </h2>
+    
+	
+	<video width="500" height="240" autoplay muted >
+	<source src="assets/videos/bridge.mp4" type="video/mp4" >
+	</video>
+	</div>
+	
+	<br/><br>
+   
+    <div class="tag-ex">
+    <h3 style="color:orange"> مثال لوسم الفيديو مع خاصية controls </h3>
+	    <h2 dir="ltr" >
+   	&lt;video width="500" height="240" controls&gt;
+   	<br>
+	&lt;source src="assets/videos/water.mp4" type="video/mp4"&gt;
+	<br>
+	&lt;/video&gt;
+    </h2>
+	<br><br>
+	
+	<video width="500" height="240" controls>
+	<source src="assets/videos/water.mp4" type="video/mp4">
+	</video>
+</div>
+	
+	
+	<h1>الصوتيات:</h1>
+	
+	<p> الصوتيات مقاربة جدا للفيديو و تستعمل نفس الطريقة و اغلب الدوال </p>
+
+       
+<table>
+  <tr>
+    <th>الدالة</th>
+    <th>خصائصها</th>
+  </tr>
+  
+  <tr>
+    <td>src=the path of the audio</td>
+    <td>تحديد موقع الصورة وهي دالة اساسية</td>
+  </tr>
+  
+  <tr>
+    <td>controls</td>
+    <td>لإضافة متحكم للصوت </td>
+  </tr>
+  
+  <tr>
+      <td> autoplay </td>
+      <td> لتشغيل الصوت تلقائيًا </td>
+  </tr>
+   <tr>
+      <td> type="audio/mp4" </td>
+      <td> لتحديد امتداد و نوع الملف </td>
+  </tr>
+</table>
+
+   	 <p>
+	 للمزيد من المعلومات اضغط   
+	 <a href="https:/www.w3schools.com/tags/ref_av_dom.asp"  target="_blank" > هنا </a>
+    </p>
+
+   <br>
+    <div class="tag-ex">
+    <h3 style="color:orange" > مثال تطبيقي لوسم الصوتيات </h3>
+    <h2>
+	&lt;audio controls&gt;
+	<br>
+	&lt;source src="assets/audio/ekhlas.mp3" type="audio/mpeg"&gt;
+	<br>
+	&lt;/audio&gt;
+	</h2>
+
+    <audio controls>
+	<source src="assets/audio/ekhlas.mp3" type="audio/mpeg">
+	</audio>
+	
+	
+	    </div>
+    </div>
+</div>
+</body>
+
+<br><br><br><br>
+<footer></footer>
+
+</html>
