@@ -48,19 +48,23 @@
                     <li class="wow fadeInDown" data-wow-delay="2s" data-wow-duration="1s"><b> From Taibah university</b></li>
                 </div>
                 <div class="container">
-                    <button type="button" onclick="document.getElementById('id01').style.display='none'" class="button1">Cancel</button>
+                    <button type="button" onclick="document.getElementById('id01').style.display='none'" class="button1">خروج</button>
                 </div>
             </form>
         </div>
 
         <script>
+            // Get the modal
             var modal = document.getElementById('id01');
+
+            // When the user clicks anywhere outside of the modal, close it
             window.onclick = function(event) {
                 if (event.target == modal) {
                     modal.style.display = "none";
                 }
             }
         </script>
+
 
 
         <a class="btn btn-outline-info" class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
@@ -84,7 +88,7 @@
 <header class="header wow fadeInDown  " data-wow-delay="0.8s">
 
     <h2 class="wow fadeInDown  " data-wow-delay="1s" data-wow-duration="3s">مشروع هندسة الويب</h2>
-    <h1 dir="rtl" class="wow fadeInDown  " data-wow-delay="1s" data-wow-duration="3s">تسجيل الدخول</h1>
+    <h1 dir="rtl" class="wow fadeInDown  " data-wow-delay="1s" data-wow-duration="3s">تسجيل مستخدم جديد </h1>
 </header>
 <style>
     @import url('https://fonts.googleapis.com/css?family=Numans');
@@ -96,7 +100,7 @@
     }
     
     .card {
-        height: 370px;
+        height: 470px;
         margin-top: 200;
         margin-bottom: auto;
         width: 1100px;
@@ -173,7 +177,7 @@
         <div class="d-flex justify-content-center h-100">
             <div class="card">
                 <div class="card-header">
-                    <h3>تسجيل الدخول</h3>
+                    <h3>تسجيل مستخدم جديد</h3>
                     <div class="d-flex justify-content-end social_icon">
                         <span><i class="fab fa-facebook-square"></i></span>
                         <span><i class="fab fa-google-plus-square"></i></span>
@@ -186,14 +190,27 @@
                             <div class="input-group-prepend">
                                 <span class="input-group-text"><i class="fas fa-user"></i></span>
                             </div>
-                            <input type="text" class="form-control" placeholder="اسم المستخدم">
+                            <input type="text" class="form-control" placeholder="ادخل المستخدم">
+
+                        </div>
+                        <div class="input-group form-group">
+                            <div class="input-group-prepend">
+                                <span class="input-group-text"><i class="fas fa-at"></i></span>
+                            </div>
+                            <input type="text" class="form-control" placeholder="ادخل الايميل">
 
                         </div>
                         <div class="input-group form-group">
                             <div class="input-group-prepend">
                                 <span class="input-group-text"><i class="fas fa-key"></i></span>
                             </div>
-                            <input type="password" class="form-control" placeholder="كلمة المرور">
+                            <input type="password" class="form-control" placeholder="ادخل كلمة المرور">
+                        </div>
+                        <div class="input-group form-group">
+                            <div class="input-group-prepend">
+                                <span class="input-group-text"><i class="fas fa-key"></i></span>
+                            </div>
+                            <input type="password" class="form-control" placeholder="اعد ادخال كلمة المرور">
                         </div>
                         <div class="row align-items-center remember">
                             <input type="checkbox">تذكرني
